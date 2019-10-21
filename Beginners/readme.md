@@ -41,3 +41,4 @@
 - [Interface](./interface_Go.md)
 - [Command Line Arguments and File I/O](./CLI_File_Arg.md)
 - [Goroutine](./Goroutine.md)
+- [Goroutine Channel](./Goroutine_Channel.md)
