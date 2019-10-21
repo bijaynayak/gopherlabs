@@ -40,6 +40,18 @@ Golang for Advanced
 
 Golang for Machine Learning  
 
+
+# Governance
+
+Gopherlabs is an independent community project founded by [Ajeet Singh Raina](https://github.com/ajeetraina),a [Docker Captain](https://www.docker.com/captains/ajeet-singh-raina) & Docker Community Leader which is now being built & shaped by a growing community of contributors across the globe.
+
+# Core Contributors
+
+- [Sangam Biradar](https://github.com/sangam14)
+- [Ajeet Singh Raina](https://github.com/ajeetraina)
+- [Dimas Prawira](https://github.com/dhiemaz)
+
+
 # Golang Developer Roadmap 2019
 
  ![Golang Developer Roadmap 2019](https://raw.githubusercontent.com/jackfrued/golang-developer-roadmap/master/golang-developer-roadmap.png)
