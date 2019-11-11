@@ -36,7 +36,19 @@ Golang for Advanced
 
 [Hacker Rank](./GO_HackerRank/HackerRankReadme.md)
 
-# Machine Learning with Go
+# Mastering Go Modules, gRPC, Crawling, and Collaboration with Git - Coming Soon 
+
+- Git essentials
+- Git branches in action
+- Go Modules Overview
+- Package management
+- Reading Documentation 
+- create a new module 
+- Adding a dependency
+- Security assurance with go.sum
+- Deep Dive into Go Modules 
+
+# Machine Learning with Go - Coming Soon
 
 Golang for Machine Learning  
 
