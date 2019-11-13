@@ -29,6 +29,6 @@ between processes
 # Persistence with Databases
 -  Working with NoSQL Databases: MongoDB
 -  Working with SQL Databases
--  Working with Time-Series Databases: InfluxDB
+- [Working with Time-Series Databases: InfluxDB](.Working_with_Time_Series_Databases_InfluxDB.md)
 - [Introduction  CockroachDB](./intro_COCKROACHDB.md)
 - [Working with global-scale distributed databases: CockroachDB](./Working_with_global-scale_distributed_databases_CockroachDB.md)
