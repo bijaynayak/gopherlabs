@@ -38,7 +38,7 @@ Golang for Advanced
 
 # Mastering Go Modules, gRPC, Crawling, and Collaboration with Git 
 
-- Git essentials
+ [Git essentials](./git-for-golang/introductiongit.md)
 - Git branches in action
 - Go Modules Overview
 - Package management
