@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.license       = 'CC0-1.0'
   s.authors       = ['sangam14', 'GitHub, Inc.']
   s.email         = ['smbiradar14@gmail.com']
-  s.homepage      = 'https://gopherlabs.collabnix.com/gopherlabs/'
+  s.homepage      = 'http://collabnix.gihub.io/gopherlabs/'
   s.summary       = 'GopherLabs'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
