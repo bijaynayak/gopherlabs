@@ -36,7 +36,7 @@ Golang for Advanced
 
 [Hacker Rank](./GO_HackerRank/HackerRankReadme.md)
 
-# Mastering Go Modules, gRPC, Crawling, and Collaboration with Git 
+# Mastering Go Modules, gRPC, Crawling, and Collaboration with Git (Daily Updating...)
 
  [Git essentials](./git-for-golang/introductiongit.md)
 - Git branches in action
@@ -46,7 +46,9 @@ Golang for Advanced
 - create a new module 
 - Adding a dependency
 - Security assurance with go.sum
-- Deep Dive into Go Modules 
+- Deep Dive into Go Modules
+
+# Network programming with Go - coming soon 
 
 # Machine Learning with Go - Coming Soon
 
