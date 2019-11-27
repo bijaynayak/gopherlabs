@@ -11,7 +11,7 @@
 - Preventing data race conditions with Mutexes
 
 # HTTP Programming
-- A deep dive into Go’s http package
+- [A deep dive into Go’s http package](./deep_dive_into_Go_http_package.md)
 - ServeMux and Handler
 - Creating custom handlers
 - Extending Go’s http package by using third-party packages
