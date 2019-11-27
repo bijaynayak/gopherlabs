@@ -88,5 +88,12 @@ func fetch(url string, ch chan<- string) {
 	ch <- fmt.Sprint("%.2fs %s", secs, nbytes, url)
 }
 ```
+output 
+```
+sangam$ go run main.go https://google.com https://google.com 
+%.2fs %s0.955698938 14029https://google.com
+%.2fs %s1.324267501 14061https://google.com
+1.32s elapsed
+```
 
 
