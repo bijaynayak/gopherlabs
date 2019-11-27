@@ -99,3 +99,39 @@ A goroutine is a concurrent function execution. A channel is a communication mec
 The main function creates a channel of strings using make. For each command-line argument, the go statement in the first range loop starts a new goroutine that calls fetch asynchronously to fetch the URL using http.Get. The io.Copy function reads the body of the response and discards it by writing to the ioutil.Discard output stream. Copy returns the byte count, along with any error that occurred. As each result arrives, fetch sends a summary line on the channel ch. The second range loop in main receives and prints those lines. <br> 
 When one goroutine attempts a send or receive on a channel, it blocks until another goroutine attempts the corresponding receive or send operation, at which point the value is transferred and both goroutines proceed. In this example, each fetch sends a value (ch <- expression) on the channel ch, and main receives all of them (<-ch). Having main do all the printing ensures that output from each goroutine is processed as a unit, with no danger of interleaving if two goroutines finish at the same time. <br> 
 
+# web server 
+Go’s libraries makes it easy to write a web server that responds to client requests like those made by fetch. In this section, we’ll show a minimal server that returns the path component of the URL used to access the server. That is, if the request is for http://localhost:8000/gopherlabs, the response will be URL.Path = "/gopherlabs".
+
+```
+package main
+
+import (
+	"fmt"
+	"log"
+	"net/http"
+)
+
+func main() {
+	http.HandleFunc("/", handler) // each request calls handler
+	log.Fatal(http.ListenAndServe("localhost:8000", nil))
+
+}
+
+// handler echoes the path component of the request URL.
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "URL.Path = %q\n", r.URL.Path)
+
+}
+
+
+
+```
+output 
+```
+sangam$ go run main.go https://localhost:8000 URL.Path = "/gopherlabs"
+```
+via 
+open in browser http://localhost:8000/gophelabs
+
+
+
