@@ -133,5 +133,6 @@ sangam$ go run main.go https://localhost:8000 URL.Path = "/gopherlabs"
 via 
 open in browser http://localhost:8000/gophelabs
 
+The program is only a handful of lines long because library functions do most of the work. The main function connects a handler function to incoming URLs whose path begins with /, which is all URLs, and starts a server listening for incoming requests on port 8000. A request is represented as a struct of type http.Request, which contains a number of related fields, one of which is the URL of the incoming request. When a request arrives, it is given to the handler function, which extracts the path component (/hello) from the request URL and sends it back as the response, using fmt.Fprintf. 
 
 
