@@ -42,7 +42,7 @@ go run main.go https://google.com
 
 program introduces functions from two packages, ` net/http ` and ` io/ioutil`. The ` http.Get` function makes an HTTP request and, if there is no error, returns the result in the response struct resp. The Body field of resp contains the server response as a readable stream.
 
-Next, ioutil.ReadAll reads the entire response; the result is stored in b. The Body stream is closed to avoid leaking resources, and Printf writes the response to the standard output.
+Next, ` ioutil.ReadAll ` reads the entire response; the result is stored in `b`. The Body stream is closed to avoid leaking resources, and Printf writes the response to the standard output.
 
 
 
