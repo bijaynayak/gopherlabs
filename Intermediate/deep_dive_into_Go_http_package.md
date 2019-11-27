@@ -36,7 +36,7 @@ func main() {
 ```
 output 
 ```
-go run main.go https://google.com
+go run main.go https://gopherlabs.collabnix.com
 
 ```
 
