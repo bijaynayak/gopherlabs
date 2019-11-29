@@ -54,3 +54,15 @@ Arg 1 = arg2
 Biradars-MacBook-Air-4:golang-daily sangam$ 
 
 ```
+- How it works...
+
+- The Go standard library offers a few ways to access the arguments of the program call. The most generic way is to access the arguments by the Args variable from the OS package.
+
+- This way you can get all the arguments from the command line in a string slice. The advantage of this approach is that the number of arguments is dynamic and this way you can, for example, pass the names of the files to be processed by the program.
+
+- The preceding example just echoes all the arguments that are passed to the program. Finally, let's say the binary is called test and the program run is executed by the Terminal command ./test arg1 arg2.
+
+- In detail, the os.Args[0] will return ./test. The os.Args[1:] returns the rest of the arguments without the binary name. In the real world, it is better to not rely on the number of arguments passed to the program, but always check the length of the argument array. Otherwise, naturally, if the argument on a given index is not within the range, the program panics.
+There's more…
+
+- If the arguments are defined as flags, -flag value, additional logic is needed to assign the value to the flag. In this case, there is a better way to parse these by using the flag package. This approach is part of the next recipe
