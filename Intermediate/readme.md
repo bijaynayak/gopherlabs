@@ -1,7 +1,7 @@
 # Concurrency Programming
 -  Concurrency in Go
 - [Goroutines](./Goroutine.md)
-- Channels
+- [Channels](./Goroutine_Channel.md)
 - Unbuffered Channels
 -  Buffered Channels
 - Channel Select
