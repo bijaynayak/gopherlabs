@@ -41,4 +41,5 @@
 - [Interface](./interface_Go.md)
 - [Command Line Arguments and File I/O](./CLI_File_Arg.md)
 - [retrieving go version](./retrieving_go_version.md)
+- [Accessing program arguments](./Accessing_program_arguments.md)
 - [Creating a program interface with the flag package](./Creating_a_program_interface_with_the_flag_package.md)
