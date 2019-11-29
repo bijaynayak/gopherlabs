@@ -9,6 +9,7 @@
 - Advanced Concurrency patterns
 
 # Mutexes
+- [Goroutine Mutex](./Goroutine_Mutex.md)
 - Preventing data race conditions with Mutexes
 
 # HTTP Programming
