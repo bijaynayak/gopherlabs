@@ -40,8 +40,6 @@
 - [Init Function](./Init_Func.md)
 - [Interface](./interface_Go.md)
 - [Command Line Arguments and File I/O](./CLI_File_Arg.md)
-- [Goroutine](./Goroutine.md)
-- [Goroutine Channel](./Goroutine_Channel.md)
 - [Goroutine Mutex](./Goroutine_Mutex.md)
 - [retrieving go version](./retrieving_go_version.md)
 - [Creating a program interface with the flag package](./Creating_a_program_interface_with_the_flag_package.md)
