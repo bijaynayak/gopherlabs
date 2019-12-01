@@ -29,5 +29,5 @@
  
 -----
 
-Next:---- >>[Numeral Systems - Decimal](https://collabnix.github.io/gopherlabs/Beginners/hello-world.html)
+Next:---- >>[Numeral Systems - Decimal](https://collabnix.github.io/gopherlabs/Beginners/Decimal.html)
 
