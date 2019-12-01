@@ -65,7 +65,7 @@
           code := <-exitChan
           os.Exit(code)
         }
-    ```
+ ```
  output:
  
  Note: after running program press CTRL+C
@@ -77,6 +77,7 @@ exit status 1
 Biradars-MacBook-Air-4:golang-daily sangam$ 
  
  ```
+ 
  
  ## How it works…
 
