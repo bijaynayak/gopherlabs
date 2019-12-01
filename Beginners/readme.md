@@ -50,3 +50,4 @@
 - [Getting the current process PID](./get_current_pid.md)
 - [Handling operating system signals](./OS_singnals.md) 
 - [Calling an external process](./call_external_process.md)
+- [Retrieving child process information](./child_process_info.md)
