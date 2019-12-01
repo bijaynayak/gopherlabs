@@ -1,6 +1,6 @@
 # Welcome to Gopher Labs [![Say Thanks](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/collabnix)
 
-![logo](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img/gopherlabgif.gif)
+![logo](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img/gopherlabs.gif)
 
 
 
