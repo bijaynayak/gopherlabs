@@ -52,3 +52,9 @@
 - [Calling an external process](./call_external_process.md)
 - [Retrieving child process information](./child_process_info.md)
 - [Reading/writing from the child process](./read_write_child_proc.md)
+- [Shutting down the application gracefully](./shut_down_application.md)
+- [File configuration with functional options]()
+
+# Golang for Beginners - Go 103 
+
+
