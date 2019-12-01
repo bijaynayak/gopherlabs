@@ -53,7 +53,7 @@
 - [Retrieving child process information](./child_process_info.md)
 - [Reading/writing from the child process](./read_write_child_proc.md)
 - [Shutting down the application gracefully](./shut_down_application.md)
-- [File configuration with functional options]()
+- [File configuration with functional options](./file_config_func.md)
 
 # Golang for Beginners - Go 103 
 
