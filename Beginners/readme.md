@@ -57,4 +57,6 @@
 
 # Golang for Beginners - Go 103 
 
+Operations on strings and string-based data are common tasks in a developer's life. This GO 103 track  covers how to handle these using the Go standard library. It is no surprise that with the standard library it is possible to do a great deal.
+
 
