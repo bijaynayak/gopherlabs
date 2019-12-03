@@ -43,6 +43,10 @@
 
 # Golang for Beginners - Go 102  
 
+Every program, once it is executed, exists in the environment of the operating system. The program receives input and provides output to this environment. The operating system also needs to communicate with the program to let it know what's happening outside. And finally, the program needs to respond with appropriate actions. 
+
+This Go 102 track will walk you through the basics of the discovery of the system environment, the program parameterization via program arguments, and the concept of the operating system signals. You will also learn how to execute and communicate with the child process.
+
 - [retrieving go version](./retrieving_go_version.md)
 - [Accessing program arguments](./Accessing_program_arguments.md)
 - [Creating a program interface with the flag package](./Creating_a_program_interface_with_the_flag_package.md)
