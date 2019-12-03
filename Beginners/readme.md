@@ -67,5 +67,6 @@ This Go 102 track will walk you through the basics of the discovery of the syste
 Operations on strings and string-based data are common tasks in a developer's life. This GO 103 track  covers how to handle these using the Go standard library. It is no surprise that with the standard library it is possible to do a great deal.
 
 - [Finding the substring in a string](./find_substring_string.md)
+- [Breaking the string into words](./break_string_into_words.md)
 
 
