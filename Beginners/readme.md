@@ -68,5 +68,6 @@ Operations on strings and string-based data are common tasks in a developer's li
 
 - [Finding the substring in a string](./find_substring_string.md)
 - [Breaking the string into words](./break_string_into_words.md)
+- [Joining the string slice with a separator](./joining_string_slice_separator.md)
 
 
