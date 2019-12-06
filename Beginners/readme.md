@@ -70,5 +70,5 @@ Operations on strings and string-based data are common tasks in a developer's li
 - [Breaking the string into words](./break_string_into_words.md)
 - [Joining the string slice with a separator](./joining_string_slice_separator.md)
 - [Concatenating a string with writer](./concat_string_writer.md)
-
+- [Aligning text with tabwriter](./align_text_with_tabwriter.md)
 
