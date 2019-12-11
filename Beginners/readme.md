@@ -1,3 +1,7 @@
+
+# introduction to gopherlabs
+- [why go ?](https://www.slideshare.net/sangambiradar370/welcome-to-gopherlabs-why-go-golang)
+
 # Golang for Beginners - Go 101 
 
 Welcome To Go 101 , we will take some hand-on session to understand basic fundamentats of go programming language . no matter your new to programming language we are covering 101 track which cover all your concept to strat track 102 . 
