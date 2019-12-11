@@ -1,5 +1,5 @@
 
-# introduction to gopherlabs
+# Introduction to gopherlabs
 - [why go ?](https://www.slideshare.net/sangambiradar370/welcome-to-gopherlabs-why-go-golang)
 
 # Golang for Beginners - Go 101 
