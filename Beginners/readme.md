@@ -76,4 +76,9 @@ Operations on strings and string-based data are common tasks in a developer's li
 - [Concatenating a string with writer](./concat_string_writer.md)
 - [Aligning text with tabwriter](./align_text_with_tabwriter.md)
 - [Replacing part of the string](./replacing_part_string.md)
-
+- [Finding the substring in text by the regex pattern ]
+- [Decoding a string from the non-Unicode charset]
+- [Controlling case]
+- [Parsing comma-separated data]
+- [Managing whitespace in a string]
+- [Indenting a text document]
