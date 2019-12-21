@@ -78,6 +78,6 @@ Operations on strings and string-based data are common tasks in a developer's li
 - [Replacing part of the string](./replacing_part_string.md)
 - [Finding the substring in text by the regex pattern ](./Finding_the_substring_in_text_by_the_regex_pattern.md)
 - [Controlling case](./Controlling_case.md)
-- [Parsing comma-separated data]
+- [Parsing comma-separated data](./Parsing_comma_separated_data.md)
 - [Managing whitespace in a string]
 - [Indenting a text document]
