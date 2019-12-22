@@ -87,7 +87,7 @@ Operations on strings and string-based data are common tasks in a developer's li
 The numbers are generally the inevitable part of each application—printing the formatted numbers, converting base representations, and so on. This Go104 track presents a lot of operations that you can commonly deal with.
 
 
-- [Converting strings to numbers ] 
+- [Converting strings to numbers](./Converting_strings_to_numbers.md)
 - [Comparing floating-point numbers] 
 - [Rounding floating-point numbers]  
 - [Floating-point arithmetics]  
