@@ -88,7 +88,7 @@ The numbers are generally the inevitable part of each application—printing the
 
 
 - [Converting strings to numbers](./Converting_strings_to_numbers.md)
-- [Comparing floating-point numbers] 
+- [Comparing floating-point numbers](./Comparing_floating_point_numbers.md)
 - [Rounding floating-point numbers]  
 - [Floating-point arithmetics]  
 - [Formatting numbers] 
