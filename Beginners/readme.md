@@ -81,3 +81,21 @@ Operations on strings and string-based data are common tasks in a developer's li
 - [Parsing comma-separated data](./Parsing_comma_separated_data.md)
 - [Managing whitespace in a string](./managing_whitespace_string.md)
 - [Indenting a text document](./Indenting_text_document.md)
+
+# Golang for Beginners - Go 104
+
+The numbers are generally the inevitable part of each application—printing the formatted numbers, converting base representations, and so on. This Go104 track presents a lot of operations that you can commonly deal with.
+
+
+- [Converting strings to numbers ] 
+- [Comparing floating-point numbers] 
+- [Rounding floating-point numbers]  
+- [Floating-point arithmetics]  
+- [Formatting numbers] 
+- [Converting between binary, octal, decimal, and hexadecimal] 
+- [Formatting with the correct plurals]
+- [Generating random numbers] 
+- [Operating complex numbers] 
+- [Converting between degrees and radians] 
+- [Taking logarithms] 
+- [Generating checksums]
