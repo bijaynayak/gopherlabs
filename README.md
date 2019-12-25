@@ -36,7 +36,7 @@ Golang for Advanced
 
 [Hacker Rank](./GO_HackerRank/HackerRankReadme.md)
 
-# Mastering Go Modules, gRPC, Crawling, and Collaboration with Git (Daily Updating...)
+# Mastering Go Modules, gRPC & Crawling
 
  [Git essentials](./git-for-golang/introductiongit.md)
 - Git branches in action
