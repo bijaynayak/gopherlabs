@@ -91,7 +91,7 @@ The numbers are generally the inevitable part of each application—printing the
 - [Comparing floating-point numbers](./Comparing_floating_point_numbers.md)
 - [Rounding floating-point numbers](./Roundin_floating_point_numbers.md)
 - [Floating-point arithmetics](./Floating_point_arithmetics.md)
-- [Formatting numbers] 
+- [Formatting numbers](./Formatting_numbers.md)
 - [Converting between binary, octal, decimal, and hexadecimal] 
 - [Formatting with the correct plurals]
 - [Generating random numbers] 
