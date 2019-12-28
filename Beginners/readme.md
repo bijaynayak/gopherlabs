@@ -98,4 +98,4 @@ The numbers are generally the inevitable part of each application—printing the
 - [Operating complex numbers](./Operating_complex_numbers.md)
 - [Converting between degrees and radians](./Converting_between_degrees_radians.md)
 - [Taking logarithms](./Taking_logarithms.md)
-- [Generating checksums]
+- [Generating checksums](./Generating_checksums.md)
