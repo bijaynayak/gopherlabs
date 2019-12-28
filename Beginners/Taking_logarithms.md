@@ -48,7 +48,7 @@ Log3(6) = 1.6309
 - The standard package, math, contains functions for all commonly used logarithms,
 and so you can easily get binary, decimal, and natural logarithms. See the Log function which counts any 
 logarithm of y with base x through the helper-defined formula:
-![img]()
+![img](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img/log.jpg)
 
 - The internal implementation of the logarithm in standard lib is naturally based on approximation.
 This function can be seen in the $GOROOT/src/math/log.go file.
