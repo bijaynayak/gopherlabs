@@ -96,6 +96,6 @@ The numbers are generally the inevitable part of each application—printing the
 - [Formatting with the correct plurals](./Formatting_with_the_correct_plurals.md)
 - [Generating random numbers](./Generating_random_numbers.md)
 - [Operating complex numbers](./Operating_complex_numbers.md)
-- [Converting between degrees and radians] 
+- [Converting between degrees and radians](./Converting_between_degrees_radians.md)
 - [Taking logarithms] 
 - [Generating checksums]
