@@ -92,7 +92,7 @@ The numbers are generally the inevitable part of each application—printing the
 - [Rounding floating-point numbers](./Roundin_floating_point_numbers.md)
 - [Floating-point arithmetics](./Floating_point_arithmetics.md)
 - [Formatting numbers](./Formatting_numbers.md)
-- [Converting between binary, octal, decimal, and hexadecimal] 
+- [Converting between binary, octal, decimal, and hexadecimal](./convert_binary_octal_hexa_decimal.md)
 - [Formatting with the correct plurals]
 - [Generating random numbers] 
 - [Operating complex numbers] 
