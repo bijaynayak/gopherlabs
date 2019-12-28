@@ -90,7 +90,7 @@ The numbers are generally the inevitable part of each application—printing the
 - [Converting strings to numbers](./Converting_strings_to_numbers.md)
 - [Comparing floating-point numbers](./Comparing_floating_point_numbers.md)
 - [Rounding floating-point numbers](./Roundin_floating_point_numbers.md)
-- [Floating-point arithmetics]  
+- [Floating-point arithmetics](./Floating_point_arithmetics.md)
 - [Formatting numbers] 
 - [Converting between binary, octal, decimal, and hexadecimal] 
 - [Formatting with the correct plurals]
