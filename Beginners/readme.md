@@ -93,7 +93,7 @@ The numbers are generally the inevitable part of each application—printing the
 - [Floating-point arithmetics](./Floating_point_arithmetics.md)
 - [Formatting numbers](./Formatting_numbers.md)
 - [Converting between binary, octal, decimal, and hexadecimal](./convert_binary_octal_hexa_decimal.md)
-- [Formatting with the correct plurals]
+- [Formatting with the correct plurals](./Formatting_with_the_correct_plurals.md)
 - [Generating random numbers] 
 - [Operating complex numbers] 
 - [Converting between degrees and radians] 
