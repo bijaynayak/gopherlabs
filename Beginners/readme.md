@@ -118,7 +118,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Parsing a large XML file effectively]
 - [Extracting data from an incomplete JSON array]
 
-# Golang for Beginners - Go 105
+# Golang for Beginners - Go 106
 
 This Go 106 track we will play around filesystem 
 
