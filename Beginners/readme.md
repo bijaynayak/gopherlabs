@@ -102,7 +102,7 @@ The numbers are generally the inevitable part of each application—printing the
 
 # Golang for Beginners - Go 105
 
-- This Go105 track presents a lot of operations that you can commonly deal with In and Out standard library 
+This Go105 track presents a lot of operations that you can commonly deal with In and Out standard library 
 
 - [Reading standard input]
 - [Writing standard output and error]
