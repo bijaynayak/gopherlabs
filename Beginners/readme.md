@@ -99,3 +99,22 @@ The numbers are generally the inevitable part of each application—printing the
 - [Converting between degrees and radians](./Converting_between_degrees_radians.md)
 - [Taking logarithms](./Taking_logarithms.md)
 - [Generating checksums](./Generating_checksums.md)
+
+# Golang for Beginners - Go 105
+
+- This Go105 track presents a lot of operations that you can commonly deal with In and Out standard library 
+
+- [Reading standard input]
+- [Writing standard output and error]
+- [Opening a file by name]
+- [Reading the file into a string]
+- [Reading/writing a different charset]
+- [Seeking a position within a file]
+- [Reading and writing binary data]
+- [Writing to multiple writers at once]
+- [Piping between writer and reader]
+- [Serializing objects to binary format]
+- [Reading and writing ZIP files]
+- [Parsing a large XML file effectively]
+- [Extracting data from an incomplete JSON array]
+
