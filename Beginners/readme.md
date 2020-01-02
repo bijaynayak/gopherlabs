@@ -104,7 +104,7 @@ The numbers are generally the inevitable part of each application—printing the
 
 This Go105 track presents a lot of operations that you can commonly deal with In and Out standard library 
 
-- [Reading standard input]
+- [Reading standard input](./Reading_standard_input.md)
 - [Writing standard output and error]
 - [Opening a file by name]
 - [Reading the file into a string]
