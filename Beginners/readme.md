@@ -106,7 +106,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 
 - [Reading standard input](./Reading_standard_input.md)
 - [Writing standard output and error](./Writing_standard_output_and_error.md)
-- [Opening a file by name]
+- [Opening a file by name](./Opening_a_file_by_name.md)
 - [Reading the file into a string]
 - [Reading/writing a different charset]
 - [Seeking a position within a file]
