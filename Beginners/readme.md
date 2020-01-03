@@ -110,7 +110,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Writing to multiple writers at once](./Writing_to_multiple_writers_at_once.md)
 - [Piping between writer and reader](./Piping_between_writer_and_reader.md)
 - [Serializing objects to binary format](./Serializing_objects_to_binary_format.md)
-- [Reading and writing ZIP files]
+- [Reading and writing ZIP files](./Reading_and_writing_zip_files.md)
 - [Parsing a large XML file effectively]
 - [Extracting data from an incomplete JSON array]
 
