@@ -68,7 +68,7 @@ Gopherlabs is an independent community project founded by [Sangam Biradar](https
 
 # Golang Developer Roadmap 2019
 
- ![Golang Developer Roadmap 2019](https://raw.githubusercontent.com/jackfrued/golang-developer-roadmap/master/golang-developer-roadmap.png)
+ ![Golang Developer Roadmap 2019](https://raw.githubusercontent.com/Alikhll/golang-developer-roadmap/master/golang-developer-roadmap.png)
  
 
 
