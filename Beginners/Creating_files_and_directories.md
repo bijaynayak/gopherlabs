@@ -45,7 +45,26 @@ func main() {
 output: 
 
 ```
-
+sangam:golang-daily sangam$ create.go
+sangam:golang-daily sangam$ tree
+.
+├── binary
+├── config.json
+├── content.dat
+├── created.byopen
+├── created.file
+├── createdDir
+├── data.csv
+├── data.xml
+├── data.zip
+├── example.txt
+├── flatfile.txt
+├── main.go
+├── sample.file
+├── sample.txt
+├── sampleDir
+│   └── path1
+│       └── path2
 
 
 ```
