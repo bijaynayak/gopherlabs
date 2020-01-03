@@ -106,7 +106,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Reading the file into a string](./Reading_the_file_into_a_string.md)
 - [Reading/writing a different charset](./Reading_and_writing_a_different_charset.md)
 - [Seeking a position within a file](./Seeking_position_within_file.md)
-- [Reading and writing binary data]
+- [Reading and writing binary data](./Reading_and_writing_binary_data.md)
 - [Writing to multiple writers at once]
 - [Piping between writer and reader]
 - [Serializing objects to binary format]
