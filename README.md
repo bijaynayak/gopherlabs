@@ -26,13 +26,13 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 [why go ?](https://www.slideshare.net/sangambiradar370/welcome-to-gopherlabs-why-go-golang)
 
-[Golang for Beginners](./Beginners/readme.md) - In-Progress
+[Golang for Beginners](./Beginners/readme.md) 
 
-[Golang for Intermediate](./Intermediate/readme.md) - In-Progress
+[Golang for Intermediate](./Intermediate/readme.md) 
 
-Golang for Advanced
+[Golang for Advanced]
 
-[Golang Cheatsheet](./Golang_Cheatsheet.md) - Done 
+[Golang Cheatsheet](./Golang_Cheatsheet.md) 
 
 # Coding Interview Questions 
 
