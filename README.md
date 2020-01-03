@@ -24,6 +24,8 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 # Gopher Labs
 
+[why go ?](https://www.slideshare.net/sangambiradar370/welcome-to-gopherlabs-why-go-golang)
+
 [Golang for Beginners](./Beginners/readme.md) - In-Progress
 
 [Golang for Intermediate](./Intermediate/readme.md) - In-Progress
