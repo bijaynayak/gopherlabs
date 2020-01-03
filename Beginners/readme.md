@@ -112,7 +112,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Serializing objects to binary format](./Serializing_objects_to_binary_format.md)
 - [Reading and writing ZIP files](./Reading_and_writing_zip_files.md)
 - [Parsing a large XML file effectively](./Parsing_a_large_XML_file_effectively.md)
-- [Extracting data from an incomplete JSON array]
+- [Extracting data from an incomplete JSON array](./Extracting_data_from_an_incomplete_JSON_array.md)
 
 # Golang for Beginners - Go 106
 
