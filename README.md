@@ -24,13 +24,13 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 # Gopher Labs
 
-[Golang for Beginners](./Beginners/readme.md)
+[Golang for Beginners](./Beginners/readme.md) - In-Progress
 
-[Golang for Intermediate](./Intermediate/readme.md)
+[Golang for Intermediate](./Intermediate/readme.md) - In-Progress
 
 Golang for Advanced
 
-[Golang Cheatsheet](./Golang_Cheatsheet.md)
+[Golang Cheatsheet](./Golang_Cheatsheet.md) - Done 
 
 # Coding Interview Questions 
 
@@ -38,7 +38,7 @@ Golang for Advanced
 
 # Mastering Go Modules, gRPC & Crawling
 
- [Git essentials](./git-for-golang/introductiongit.md)
+ [Git essentials](./git-for-golang/introductiongit.md) - In-Progress
 - Git branches in action
 - Go Modules Overview
 - Package management
