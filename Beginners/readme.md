@@ -108,7 +108,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Writing standard output and error](./Writing_standard_output_and_error.md)
 - [Opening a file by name](./Opening_a_file_by_name.md)
 - [Reading the file into a string](./Reading_the_file_into_a_string.md)
-- [Reading/writing a different charset]
+- [Reading/writing a different charset](./Reading_and_writing_a_different_charset.md)
 - [Seeking a position within a file]
 - [Reading and writing binary data]
 - [Writing to multiple writers at once]
