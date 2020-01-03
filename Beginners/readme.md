@@ -123,7 +123,7 @@ This Go 106 track we will play around filesystem
 - [Writing the file](./Writing_the_file.md)
 - [Writing the file from multiple goroutines](./Writing_the_file_from_multiple_goroutines.md)
 - [Listing a directory](./Listing_a_directory.md)
-- [Changing file permissions]
+- [Changing file permissions](./Changing_file_permissions.md)
 - [Creating files and directories]
 - [Filtering file listings]
 - [Comparing two files]
