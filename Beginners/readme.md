@@ -121,7 +121,7 @@ This Go 106 track we will play around filesystem
 - [Getting file information](./Getting_file_information.md)
 - [Creating temporary files](./Creating_temporary_files.md)
 - [Writing the file](./Writing_the_file.md)
-- [Writing the file from multiple goroutines]
+- [Writing the file from multiple goroutines](./Writing_the_file_from_multiple_goroutines.md)
 - [Listing a directory]
 - [Changing file permissions]
 - [Creating files and directories]
