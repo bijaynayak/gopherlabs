@@ -119,7 +119,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 This Go 106 track we will play around filesystem 
 
 - [Getting file information](./Getting_file_information.md)
-- [Creating temporary files]
+- [Creating temporary files](./Creating_temporary_files.md)
 - [Writing the file]
 - [Writing the file from multiple goroutines]
 - [Listing a directory]
