@@ -108,7 +108,7 @@ This Go105 track presents a lot of operations that you can commonly deal with In
 - [Seeking a position within a file](./Seeking_position_within_file.md)
 - [Reading and writing binary data](./Reading_and_writing_binary_data.md)
 - [Writing to multiple writers at once](./Writing_to_multiple_writers_at_once.md)
-- [Piping between writer and reader]
+- [Piping between writer and reader](./Piping_between_writer_and_reader.md)
 - [Serializing objects to binary format]
 - [Reading and writing ZIP files]
 - [Parsing a large XML file effectively]
