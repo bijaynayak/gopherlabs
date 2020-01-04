@@ -1,3 +1,27 @@
+# Golang for Intermediate
+
+# Connecting the Network GO 201 
+
+- [Resolving local IP addresses]
+- [Connecting to the remote server]
+- [Resolving the domain by IP address and vice versa]
+- [Connecting to the HTTP server]
+- [Parsing and building a URL]
+- [Creating an HTTP request]
+- [Reading and writing HTTP headers]
+- [Handling HTTP redirects]
+- [Consuming the RESTful API]
+- [Sending a simple email]
+- [Calling the JSON-RPC service]
+
+
+
+
+
+
+
+
+
 # Concurrency Programming
 - [What is concurrency ?](./Concurrency_in_Go.md)
 -  Concurrency in Go
