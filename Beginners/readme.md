@@ -127,6 +127,6 @@ This Go 106 track we will play around filesystem
 - [Creating files and directories](./Creating_files_and_directories.md)
 - [Filtering file listings](./Filtering_file_listings.md)
 - [Comparing two files](./Comparing_two_files.md)
-- [Resolving the user home directory]
+- [Resolving the user home directory](./Resolving_the_user_home_directory.md)
 
 
