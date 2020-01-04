@@ -125,7 +125,7 @@ This Go 106 track we will play around filesystem
 - [Listing a directory](./Listing_a_directory.md)
 - [Changing file permissions](./Changing_file_permissions.md)
 - [Creating files and directories](./Creating_files_and_directories.md)
-- [Filtering file listings]
+- [Filtering file listings](./Filtering_file_listings.md)
 - [Comparing two files]
 - [Resolving the user home directory]
 
