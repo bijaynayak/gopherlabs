@@ -3,7 +3,7 @@
 # Connecting the Network GO 201 
 
 - [Creating the TCP server](./Creating_the_TCP_server.md)
-- [Connecting to the remote server]
+- [Creating the UDP server](./Creating_the_UDP_server.md)
 - [Resolving the domain by IP address and vice versa]
 - [Connecting to the HTTP server]
 - [Parsing and building a URL]
