@@ -2,7 +2,7 @@
 
 # Connecting the Network GO 201 
 
-- [Resolving local IP addresses]
+- [Resolving local IP addresses](./Creating_the_TCP_server.md)
 - [Connecting to the remote server]
 - [Resolving the domain by IP address and vice versa]
 - [Connecting to the HTTP server]
