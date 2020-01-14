@@ -7,7 +7,7 @@
 - [Handling multiple clients](./Handling_multiple_clients.md)
 - [Creating the HTTP Server](.Creating_the_HTTP_Server.md)
 - [Handling HTTP requests](./Handling_HTTP_requests.md)
-- [Creating an HTTP request]
+- [Creating HTTP middleware layer]
 - [Reading and writing HTTP headers]
 - [Handling HTTP redirects]
 - [Consuming the RESTful API]
