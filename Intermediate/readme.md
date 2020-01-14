@@ -8,7 +8,7 @@
 - [Creating the HTTP Server](.Creating_the_HTTP_Server.md)
 - [Handling HTTP requests](./Handling_HTTP_requests.md)
 - [Creating HTTP middleware layer](./Creating_HTTP_middleware_layer.md)
-- [Reading and writing HTTP headers]
+- [Serving static files](./Serving_static_files.md)
 - [Handling HTTP redirects]
 - [Consuming the RESTful API]
 - [Sending a simple email]
