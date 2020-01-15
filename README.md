@@ -34,27 +34,7 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 [Golang Cheatsheet](./Golang_Cheatsheet.md) 
 
-# Coding Interview Questions 
-
-[Hacker Rank](./GO_HackerRank/HackerRankReadme.md)
-
-# Mastering Go Modules, gRPC & Crawling
-
- [Git essentials](./git-for-golang/introductiongit.md) - In-Progress
-- Git branches in action
-- Go Modules Overview
-- Package management
-- Reading Documentation 
-- create a new module 
-- Adding a dependency
-- Security assurance with go.sum
-- Deep Dive into Go Modules
-
-# Network programming with Go - coming soon 
-
-# Machine Learning with Go - Coming Soon
-
-Golang for Machine Learning  
+[Experts Talks - Built with Go]()
 
 
 # Governance
