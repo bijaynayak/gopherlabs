@@ -10,7 +10,7 @@
 - [Creating HTTP middleware layer](./Creating_HTTP_middleware_layer.md)
 - [Serving static files](./Serving_static_files.md)
 - [Serving content generated with templates](./Serving_content_generated_with_templates.md)
-- [Consuming the RESTful API]
+- [Handling redirects](./Handling_redirects.md)
 - [Sending a simple email]
 - [Calling the JSON-RPC service]
 
