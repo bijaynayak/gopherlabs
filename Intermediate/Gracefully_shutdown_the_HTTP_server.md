@@ -50,6 +50,8 @@
         }
 
 ```
+output:
+```
 sangam:golang-daily sangam$ go run gracefully.go
 2020/01/15 05:49:10 Server listening on : :8089
 ^C2020/01/15 05:49:38 Shutting down server...
