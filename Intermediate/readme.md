@@ -11,7 +11,7 @@
 - [Serving static files](./Serving_static_files.md)
 - [Serving content generated with templates](./Serving_content_generated_with_templates.md)
 - [Handling redirects](./Handling_redirects.md)
-- [Sending a simple email]
+- [Handling cookies](./Handling_cookies.md)
 - [Calling the JSON-RPC service]
 
 
