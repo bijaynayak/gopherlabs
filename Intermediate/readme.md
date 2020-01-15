@@ -12,7 +12,7 @@
 - [Serving content generated with templates](./Serving_content_generated_with_templates.md)
 - [Handling redirects](./Handling_redirects.md)
 - [Handling cookies](./Handling_cookies.md)
-- [Calling the JSON-RPC service]
+- [Gracefully shutdown the HTTP server](./Gracefully_shutdown_the_HTTP_server.md)
 
 
 
