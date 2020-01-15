@@ -2,7 +2,7 @@
 # Experts Talks - Built with Go
 
 
-### Alex Ellis(https://www.alexellis.io/),Founder of OpenFaaS
+### Alex Ellis(https://www.alexellis.io/), Founder of OpenFaaS
 
 - [5 keys to create a killer CLI in Go](https://blog.alexellis.io/5-keys-to-a-killer-go-cli/)
 - [Build a Serverless Golang Function with OpenFaaS](https://blog.alexellis.io/serverless-golang-with-openfaas/)
