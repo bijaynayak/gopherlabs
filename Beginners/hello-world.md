@@ -4,8 +4,7 @@
 
 ![](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img_Beginners/hello_world_gopherlabs.png)
 
-Go PlayGround:- 
-https://play.golang.org/p/-N_yGtploWl
+Go PlayGround:-(https://play.golang.org/p/-N_yGtploWl)
 
 - A complete program is created by linking a single, unimported package called the main package with all the packages it imports, transitively. The main package must have package name main and declare a function main that takes no arguments and returns no value.
 
