@@ -31,6 +31,13 @@
 -  Buffered Channels
 - Channel Select
 - Advanced Concurrency patterns
+- Synchronizing access to a resource with Mutex
+- Creating a map for concurrent access
+- Running a code block only once
+- Pooling resources across multiple goroutines
+- Synchronizing goroutines with WaitGroup
+- Getting the fastest result from multiple sources
+- Propagating errors with errgroup
 
 # Mutexes
 - [Goroutine Mutex](./Goroutine_Mutex.md)
