@@ -3,7 +3,7 @@
 Welcome To Go 101 , we will take some hand-on session to understand basic fundamentats of go programming language . no matter your new to programming language we are covering 101 track which cover all your concept to strat track 102 . 
 so lets start : 
  
-- [Getting Start with Golang - slides](https://collabnix.github.io/gopherlabs/Beginners/slides/Getting_Start_with_golang/Golang101.html)
+- [Getting Start with Golang - slides](https://collabnix.github.io/gopherlabs/Beginners/slides/Getting_Start_with_golang/go101.html)
 - [Lets Start With First Hello World](./hello-world.md)
 - [Numeral Systems - Decimal](./Decimal.md)
 - [Numeral Systems - Binary](./binary_go.md)
