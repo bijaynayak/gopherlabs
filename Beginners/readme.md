@@ -12,6 +12,7 @@ so lets start :
 - [Numeral Systems - Hexadecimal](./Hexadecimal.md)
 - [Numeral Systems - loop](./Numeral-systems-using-loop.md)
 - [Numeral Systems - UTF-8](./UTF-8.md)
+- [Deep Drive Into Variables,Constants and Scope - slides](https://collabnix.github.io/gopherlabs/Beginners/slides/Variable_Constants_Scope/variable_Constant_Scope.html)
 - [Short Variable Declarations](./Short_variable_declarations.md)
 - [Variable With Zero Value](./variable_with_zero_value.md)
 - [Deep Drive On Variables](./Deep_Drive_variable.md)
