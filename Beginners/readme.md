@@ -6,6 +6,7 @@ so lets start :
 - [Getting Start with Golang - slides](https://collabnix.github.io/gopherlabs/Beginners/slides/Getting_Start_with_golang/go101.html)
 - [Hello World - slides](https://collabnix.github.io/gopherlabs//Beginners/slides/HelloWorld/HelloWorld_101.html)
 - [Lets Start With First Hello World](./hello-world.md)
+- [Number System Hands On Lab - slides](https://collabnix.github.io/gopherlabs//Beginners/slides/Number_System.html/Number_System101.html)
 - [Numeral Systems - Decimal](./Decimal.md)
 - [Numeral Systems - Binary](./binary_go.md)
 - [Numeral Systems - Hexadecimal](./Hexadecimal.md)
