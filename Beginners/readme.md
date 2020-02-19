@@ -17,6 +17,7 @@ so lets start :
 - [Variable With Zero Value](./variable_with_zero_value.md)
 - [Deep Drive On Variables](./Deep_Drive_variable.md)
 - [Deep Drive On Constants](./deep_drive_Constants.md)
+- [Decision Making in Golang - slides](https://collabnix.github.io/gopherlabs/Beginners/slides/Decision_Making/)
 - [String Type](./String_Type.md)
 - [Bool Type](./BoolType.md)
 - [Loop - Init, Condition, Post](./Loop_nit_Condition_Post.md)
