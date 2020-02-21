@@ -39,6 +39,7 @@ so lets start :
 - [Pointers To Structs](./Pointers_to_structs.md)
 - [Conversion, Not Casting](./Conversion_Not_Casting.md) 
 - [Creating Your Own Type](./Creating_Your_Own_Type.md)
+- [funcs, func expressions, closure, returning funcs, recursion, the stack slides](https://collabnix.github.io/gopherlabs/Beginners/slides/func/func.html)
 - [Defers](./Defer_go.md)
 - [Stacking Defers](./stacking_defers.md)
 - [Pointer](./pointer_golang.md)
