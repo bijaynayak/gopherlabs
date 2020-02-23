@@ -137,6 +137,6 @@ This Go 106 track we will play around filesystem
 - [Resolving the user home directory](./Resolving_the_user_home_directory.md)
 
 
- [ Golang for Intermediate >>>> ](./Intermediate/readme.md)
+ [ Golang for Intermediate >>>> ](https://collabnix.github.io/gopherlabs/Intermediate/)
 
 
