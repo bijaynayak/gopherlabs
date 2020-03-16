@@ -32,7 +32,7 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 [Golang for Advanced] - In Process 
 
-[Golang for Advanced] - In Proces
+[Data Structures] - In Proces
 
 [Protocol Buffers] - In Process 
 
