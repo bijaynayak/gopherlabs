@@ -1,7 +1,7 @@
 ## Data Structures - Go
 
 
-- Arrays
+- <a href="Arrays.md">Arrays</a>
 - Linked Lists - Singly Linked list, Doubly Linked List
 - Stacks
 - Queue
