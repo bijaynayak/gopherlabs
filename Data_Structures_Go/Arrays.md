@@ -160,7 +160,7 @@ import "fmt"
 func main() {
 	
 	// Array of dimension 5*2 ( 5 rows, 2 coloumns )
-	arr:= [5][2]string{{"Amelia","Amy"},
+	arr:= [5][2]string {{"Amelia","Amy"},
 			   {"Andrea","Angela"},
 			   {"Anna","Bella"},
 			   {"Bernadette","Carol"},
