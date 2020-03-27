@@ -156,22 +156,26 @@ For example :
 
 ```
 package main
+
 import "fmt"
+
 func main() {
-	
+
 	// Array of dimension 5*2 ( 5 rows, 2 coloumns )
-	arr:= [5][2]string {{"Amelia","Amy"},
-			   {"Andrea","Angela"},
-			   {"Anna","Bella"},
-			   {"Bernadette","Carol"},
-			   {"Carolyn","Monica" }}  
-   
-	for x:= 0; x < 5; x++{ 
-	for y:= 0; y < 2; y++{ 
-	fmt.Println(arr[x][y]) 
-} 
-} 
+	arr := [5][2]string{{"Amelia", "Amy"},
+		{"Andrea", "Angela"},
+		{"Anna", "Bella"},
+		{"Bernadette", "Carol"},
+		{"Carolyn", "Monica"}}
+
+	for x := 0; x < 5; x++ {
+		for y := 0; y < 2; y++ {
+			fmt.Println(arr[x][y])
+		}
+	}
 }
+
+
 ```
 
 Ouput :
@@ -187,5 +191,6 @@ Bernadette
 Carol
 Carolyn
 Monica
+
 ```
 
