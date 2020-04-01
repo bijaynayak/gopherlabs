@@ -1,4 +1,3 @@
-
 ##  Singly Linked List
 
 A linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. <br>
@@ -34,8 +33,8 @@ For node :
 
 ```
 type Node struct {
-	city name
-	next *Node
+	country string
+	next    *Node
 }
 ```
 
@@ -45,7 +44,7 @@ For list :
 ```
 type SinglyLinkedList struct {
 	length int
-	head *Node
+	head   *Node
 }
 ```
 The `length` refers to the length of the Linked List, and `head *Node` refers to the `head` of the linked list.
@@ -60,20 +59,21 @@ Functionality : Creates a new node with the given data, and inserts the node at 
 ```
 func (sll *SinglyLinkedList) InsertFront(name string) {
 
-    // Create a new node 
-    newCity := &Node{
-        city: name,
-    }
-    
-    // Insert the node
-    if sll.head == nil {
-        sll.head = newCity
-    } else {
-        newCity.next = sll.head
-        sll.head = newCity
-    }
-    sll.length++
-    return
+	// Create a new node
+	newCountry := &Node{
+		country: name,
+	}
+
+	// Insert the node
+	if sll.head == nil {
+		sll.head = newCountry
+	} else {
+		newCountry.next = sll.head
+		sll.head = newCountry
+	}
+	sll.length++
+	return
+
 }
 ```
 
@@ -87,25 +87,25 @@ Input :` string data ` <br>
 Functionality : Creates a new node with the given data, and inserts the node at the end of the linked list.
 
 ```
- func (sll *SinglyLinkedList) InsertEnd(name string) {
+func (sll *SinglyLinkedList) InsertEnd(name string) {
 
-    // Create a new node 
-    newCity := &Node{
-        city: name,
-    }
-    
-    // Insert the new node
-    if sll.head == nil {
-        sll.head = newCity
-    } else {
-        temp := sll.head
-        for temp.next != nil {
-            temp = temp.next
-        }
-        temp.next = newCity
-    }
-    sll.length++
-    return
+	// Create a new node
+	newCountry := &Node{
+		country: name,
+	}
+
+	// Insert the new node
+	if sll.head == nil {
+		sll.head = newCountry
+	} else {
+		temp := sll.head
+		for temp.next != nil {
+			temp = temp.next
+		}
+		temp.next = newCountry
+	}
+	sll.length++
+	return
 }
 ```
 Here, we defined the method `InsertEnd` on `*SinglyLinkedList`.
@@ -118,15 +118,15 @@ Functionality : Deletes a node from the start of a linked list
 ```
 func (sll *SinglyLinkedList) DeleteFront() error {
 
-    // Check for empty list before deleting
-    if sll.head == nil {
-        return fmt.Errorf("Cannot delete, List is empty")
-    }
-    
-    // Delete the node
-    sll.head = sll.head.next
-    sll.length--
-    return nil
+	// Check for empty list before deleting
+	if sll.head == nil {
+		return fmt.Errorf("Cannot delete, List is empty")
+	}
+
+	// Delete the node
+	sll.head = sll.head.next
+	sll.length--
+	return nil
 }
 ```
 Here, we defined the method `DeleteFront` on `*SinglyLinkedList`.
@@ -139,28 +139,28 @@ Functionality : Deletes a node from the end of a linked list
 ```
 func (sll *SinglyLinkedList) DeleteEnd() error {
 
-    // Check for empty list before deleting
-    if sll.head == nil {
-        return fmt.Errorf("Cannot delete, List is empty")
-    }
-    
-    // Delete the node
-    var prev *Node
-    cur := sll.head
-    
-    // Traversing till the end of list
-    for cur.next != nil {
-        prev = cur
-        cur = cur.next
-    }
-    
-    if prev != nil {
-        prev.next = nil
-    } else {
-        sll.head = nil
-    }
-    sll.length--
-    return nil
+	// Check for empty list before deleting
+	if sll.head == nil {
+		return fmt.Errorf("Cannot delete, List is empty")
+	}
+
+	// Delete the node
+	var prev *Node
+	cur := sll.head
+
+	// Traversing till the end of list
+	for cur.next != nil {
+		prev = cur
+		cur = cur.next
+	}
+
+	if prev != nil {
+		prev.next = nil
+	} else {
+		sll.head = nil
+	}
+	sll.length--
+	return nil
 }
 ```
 
@@ -171,10 +171,10 @@ Here, we defined the method `DeleteEnd` on `*SinglyLinkedList`.
 Functionality : Returns the data of the node at the start.
 ```
 func (sll *SinglyLinkedList) getFront() (string, error) {
-    if sll.head == nil {
-        return "", fmt.Errorf("Error : The List is empty !")
-    }
-    return sll.head.city, nil
+	if sll.head == nil {
+		return "", fmt.Errorf("Error : The List is empty !")
+	}
+	return sll.head.country, nil
 }
 ```
 
@@ -186,7 +186,7 @@ Functionality : Returns the length of the linked list
 
 ```
 func (sll *SinglyLinkedList) getLength() int {
-    return sll.length
+	return sll.length
 }
 ```
 Here, we defined the method ```getLength``` on `*SinglyLinkedList`.
@@ -197,21 +197,31 @@ Functionality : Prints the entire linked list
 
 ```
 func (sll *SinglyLinkedList) display() error {
-    fmt.Println("The List is - ")
-    if sll.head == nil {
-        return fmt.Errorf("Cannot print, List is empty")
-    }
-    current := sll.head
-    for current != nil {
-        fmt.Println(current.city)
-        current = current.next
-    }
-    return nil
+	fmt.Println("The List is - ")
+	if sll.head == nil {
+		return fmt.Errorf("Cannot print, List is empty")
+	}
+	current := sll.head
+	for current != nil {
+		fmt.Println(current.country)
+		current = current.next
+	}
+	return nil
 }
 ```
 Here, we defined the method ```display``` on `*SinglyLinkedList`.
 
-#### 8. The main method
+#### 8. Initialising the Linked List
+
+Functionality : Initialises the singly linked list.
+
+```
+func initList() *SinglyLinkedList {
+	return &SinglyLinkedList{}
+}
+```
+
+#### 9. The main method
 
 Now, we can use all these methods in our `main()` method to see how all of it functions together.
 
@@ -257,11 +267,11 @@ func main() {
 	}
 
 	fmt.Printf("The element at front is \n")
-	var city, error = head.getFront()
+	var country, error = head.getFront()
 	if error != nil {
 		fmt.Printf(error.Error())
 	} else {
-		fmt.Println(city)
+		fmt.Println(country)
 	}
 
 	fmt.Printf("Deleted element from end\n")
@@ -322,3 +332,4 @@ The List is -
 Cannot print, List is empty
 Length of the List: 0
 ```
+
