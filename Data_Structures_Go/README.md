@@ -1,10 +1,10 @@
 ## Data Structures - Go
 
 
-- [Arrays](./Data_Structures_Go/Arrays.md)
+- [Arrays](./Arrays.md)
 - Linked Lists 
-   - [Singly Linked List](./Data_Structures_Go/SinglyLinkedList.md)
--  Doubly Linked List
+   - [Singly Linked List](./SinglyLinkedList.md)
+   - [Doubly Linked List](./DoublyLinkedList.md)
 - Stacks
 - Queue
 - Binary Tree
