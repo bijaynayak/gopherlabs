@@ -1,48 +1,43 @@
-##  Singly Linked List
+##  Doubly Linked List
 
 A linked list is a linear collection of data elements, whose order is not given by their physical placement in memory. <br>
 The elements are not stored at the contiguous memory location.
-Instead, each element points to the next. <br>
+Instead, each element points to the next and the previous element. <br>
 It is a data structure consisting of a collection of nodes that together represent a sequence.<br>
 
-Each node has some data and a pointer(reference) to the next node in the list.
-
-### Advantages of Linked List over Arrays :
-
-1. The size of a linked list is dynamic, while the array size is fixed.
-2. Linked List provides us ease of insertion/ deletion since we need not shift elements as in the case of arrays.
+In a doubly-linked list, each node has some data and a pointer(reference) to the next node in the list, and a pointer(reference) to the previous node in the list.
 
 ### Representation :
 
-A linked list is represented using a pointer to the first node in the list, often referred to as `head` of the linked list.
+A doubly linked list is represented using a pointer to the first node in the list, often referred to as `head` of the linked list.
 
 When the list is empty, we say that `head is nil`.
 Each node in the list consists of 2 parts :
 
 1. `Data` 
 2. `Pointer(reference) to the next node`
+3. `Pointer(reference) to the previous node`
  
 In Go, we can represent a node using structures. 
-Let us learn how to implement the singly linked list step by step.
+Let us learn how to implement the doubly linked list step by step.
 
 #### 1. Creating the structure
 
 We will create two structures, one for the node and one for the list.
-
 For node :
-
 ```
 type Node struct {
 	country string
 	next    *Node
+	prev    *Node
 }
 ```
 
-The node consists of string data here. <br>
+The node consists of string data here, and two pointers - next and prev. <br>
 For list :
 
 ```
-type SinglyLinkedList struct {
+type DoublyLinkedList struct {
 	length int
 	head   *Node
 }
@@ -57,7 +52,7 @@ Input :` string data `  <br>
 Functionality : Creates a new node with the given data, and inserts the node at the starting of the linked list.
 
 ```
-func (sll *SinglyLinkedList) InsertFront(name string) {
+func (dll *DoublyLinkedList) InsertFront(name string) {
 
 	// Create a new node
 	newCountry := &Node{
@@ -65,19 +60,21 @@ func (sll *SinglyLinkedList) InsertFront(name string) {
 	}
 
 	// Insert the node
-	if sll.head == nil {
-		sll.head = newCountry
+	if dll.head == nil {
+		dll.head = newCountry
 	} else {
-		newCountry.next = sll.head
-		sll.head = newCountry
+		dll.head.prev = newCountry
+		newCountry.next = dll.head
+		newCountry.prev = nil
+		dll.head = newCountry
 	}
-	sll.length++
+	dll.length++
 	return
 
 }
 ```
 
-Here, we defined the method `InsertFront` on `*SinglyLinkedList`.
+Here, we defined the method `InsertFront` on `*DoublyLinkedList`.
 
 #### 3. Inserting a node at the end of Linked List
 
@@ -87,7 +84,7 @@ Input :` string data ` <br>
 Functionality : Creates a new node with the given data, and inserts the node at the end of the linked list.
 
 ```
-func (sll *SinglyLinkedList) InsertEnd(name string) {
+func (dll *DoublyLinkedList) InsertEnd(name string) {
 
 	// Create a new node
 	newCountry := &Node{
@@ -95,41 +92,43 @@ func (sll *SinglyLinkedList) InsertEnd(name string) {
 	}
 
 	// Insert the new node
-	if sll.head == nil {
-		sll.head = newCountry
+	if dll.head == nil {
+		dll.head = newCountry
 	} else {
-		temp := sll.head
+		temp := dll.head
 		for temp.next != nil {
 			temp = temp.next
 		}
+		newCountry.prev = temp
+		newCountry.next = nil
 		temp.next = newCountry
 	}
-	sll.length++
+	dll.length++
 	return
 }
 ```
-Here, we defined the method `InsertEnd` on `*SinglyLinkedList`.
+Here, we defined the method `InsertEnd` on `*DoublyLinkedList`.
 
 #### 4. Deleting a node from front
 Let us define a function where 
-
 Functionality : Deletes a node from the start of a linked list
 
 ```
-func (sll *SinglyLinkedList) DeleteFront() error {
+func (dll *DoublyLinkedList) DeleteFront() error {
 
 	// Check for empty list before deleting
-	if sll.head == nil {
+	if dll.head == nil {
 		return fmt.Errorf("Cannot delete, List is empty")
 	}
 
 	// Delete the node
-	sll.head = sll.head.next
-	sll.length--
+	dll.head.next.prev = nil
+	dll.head = dll.head.next
+	dll.length--
 	return nil
 }
 ```
-Here, we defined the method `DeleteFront` on `*SinglyLinkedList`.
+Here, we defined the method `DeleteFront` on `*DoublyLinkedList`.
 
 #### 4. Deleting a node from the end
 Let us define a function where 
@@ -137,16 +136,16 @@ Let us define a function where
 Functionality : Deletes a node from the end of a linked list
 
 ```
-func (sll *SinglyLinkedList) DeleteEnd() error {
+func (dll *DoublyLinkedList) DeleteEnd() error {
 
 	// Check for empty list before deleting
-	if sll.head == nil {
+	if dll.head == nil {
 		return fmt.Errorf("Cannot delete, List is empty")
 	}
 
 	// Delete the node
 	var prev *Node
-	cur := sll.head
+	cur := dll.head
 
 	// Traversing till the end of list
 	for cur.next != nil {
@@ -157,51 +156,51 @@ func (sll *SinglyLinkedList) DeleteEnd() error {
 	if prev != nil {
 		prev.next = nil
 	} else {
-		sll.head = nil
+		dll.head = nil
 	}
-	sll.length--
+	dll.length--
 	return nil
 }
 ```
 
-Here, we defined the method `DeleteEnd` on `*SinglyLinkedList`.
+Here, we defined the method `DeleteEnd` on `*DoublyLinkedList`.
 
 #### 5. Getting the node at the front 
 
 Functionality : Returns the data of the node at the start.
 ```
-func (sll *SinglyLinkedList) getFront() (string, error) {
-	if sll.head == nil {
+func (dll *DoublyLinkedList) getFront() (string, error) {
+	if dll.head == nil {
 		return "", fmt.Errorf("Error : The List is empty !")
 	}
-	return sll.head.country, nil
+	return dll.head.country, nil
 }
 ```
 
-Here, we defined the method ```getFront``` on `*SinglyLinkedList`.
+Here, we defined the method ```getFront``` on `*DoublyLinkedList`.
 
 #### 6. Getting the length of the linked list
 
 Functionality : Returns the length of the linked list
 
 ```
-func (sll *SinglyLinkedList) getLength() int {
-	return sll.length
+func (dll *DoublyLinkedList) getLength() int {
+	return dll.length
 }
 ```
-Here, we defined the method ```getLength``` on `*SinglyLinkedList`.
+Here, we defined the method ```getLength``` on `*DoublyLinkedList`.
 
-#### 7. Displaying the linked list
+#### 7. Displaying the linked list in the forward direction
 
-Functionality : Prints the entire linked list
+Functionality : Prints the entire linked list in the forward direction.
 
 ```
-func (sll *SinglyLinkedList) display() error {
-	fmt.Println("The List is - ")
-	if sll.head == nil {
+func (dll *DoublyLinkedList) displayForward() error {
+	fmt.Println("Printing the list in forward direction - ")
+	if dll.head == nil {
 		return fmt.Errorf("Cannot print, List is empty")
 	}
-	current := sll.head
+	current := dll.head
 	for current != nil {
 		fmt.Println(current.country)
 		current = current.next
@@ -209,15 +208,40 @@ func (sll *SinglyLinkedList) display() error {
 	return nil
 }
 ```
-Here, we defined the method ```display``` on `*SinglyLinkedList`.
+Here, we defined the method ```displayForward``` on `*DoublyLinkedList`.
 
-#### 8. Initialising the Linked List
+#### 8. Displaying the linked list in the backward direction
 
-Functionality : Initialises the singly linked list.
+Functionality : Prints the entire linked list in the backward direction.
 
 ```
-func initList() *SinglyLinkedList {
-	return &SinglyLinkedList{}
+func (dll *DoublyLinkedList) displayBackwards() error {
+	fmt.Println("Printing the list in backward direction - ")
+	if dll.head == nil {
+		return fmt.Errorf("Cannot print, List is empty")
+	}
+	current := dll.head
+
+	for current.next != nil {
+		current = current.next
+	}
+
+	for current != nil {
+		fmt.Println(current.country)
+		current = current.prev
+	}
+	return nil
+}
+```
+Here, we defined the method ```displayBackwards``` on `*DoublyLinkedList`.
+
+#### 9. Initialising the Linked List
+
+Functionality : Initialises the doubly linked list.
+
+```
+func initList() *DoublyLinkedList {
+	return &DoublyLinkedList{}
 }
 ```
 
@@ -239,7 +263,12 @@ func main() {
 
 	fmt.Printf("Length of the list : %d\n", head.getLength())
 
-	err := head.display()
+	err := head.displayBackwards()
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+
+	err = head.displayForward()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -250,7 +279,7 @@ func main() {
 		fmt.Printf(err.Error())
 	}
 
-	err = head.display()
+	err = head.displayForward()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -261,7 +290,7 @@ func main() {
 		fmt.Printf(err.Error())
 	}
 
-	err = head.display()
+	err = head.displayForward()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -280,7 +309,7 @@ func main() {
 		fmt.Printf(err.Error())
 	}
 
-	err = head.display()
+	err = head.displayForward()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -291,7 +320,7 @@ func main() {
 		fmt.Printf(err.Error())
 	}
 
-	err = head.display()
+	err = head.displayForward()
 	if err != nil {
 		fmt.Println(err.Error())
 	}
@@ -308,27 +337,32 @@ Inserting at start: USA
 Inserting at end: China
 Inserting at end: Russia
 Length of the list : 4
-The List is - 
+Printing the list in backward direction - 
+Russia
+China
+India
+USA
+Printing the list in forward direction - 
 USA
 India
 China
 Russia
 Deleted element from front 
-The List is - 
+Printing the list in forward direction - 
 India
 China
 Russia
 Deleted element from end 
-The List is - 
+Printing the list in forward direction - 
 India
 China
 The element at front is 
 India
 Deleted element from end
-The List is - 
+Printing the list in forward direction - 
 India
 Deleted element from end
-The List is - 
+Printing the list in forward direction - 
 Cannot print, List is empty
 Length of the List: 0
 ```
