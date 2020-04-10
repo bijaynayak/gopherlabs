@@ -104,8 +104,69 @@ To print the stack elements, we print the top element, pop it, and then again re
 Now, we can use all these methods in our `main()` method to see how all of it functions together.
 
 ```
-https://play.golang.org/p/UrX8KhVSqok
+
+package main
+
+import (
+	"fmt"
+)
+
+type StackElement struct {
+	name string
+}
+
+type Stack struct {
+	StackElements []*StackElement
+	size          int
+}
+
+func NewStack() *Stack {
+	return &Stack{}
+}
+
+func (s *Stack) Push(el *StackElement) {
+	s.StackElements = append(s.StackElements[:s.size], el)
+	s.size++
+}
+
+func (s *Stack) Pop() *StackElement {
+	if s.size == 0 {
+		// To prevent Stack underflow
+		return nil
+	}
+	s.size--
+	return s.StackElements[s.size]
+}
+
+func (s *Stack) Peek() *StackElement {
+
+	return s.StackElements[s.size-1]
+}
+
+func (s *Stack) display() *StackElement {
+
+	for s.size > 0 {
+		fmt.Print(s.Peek(), ", ")
+		s.Pop()
+	}
+	return nil
+
+}
+
+func main() {
+	s := NewStack()
+	s.Push(&StackElement{"Ross"})
+	s.Push(&StackElement{"Monica"})
+	s.Push(&StackElement{"Chandler"})
+	s.Push(&StackElement{"Joey"})
+	s.Push(&StackElement{"Phoebe"})
+	s.Push(&StackElement{"Rachel"})
+	fmt.Println("The element at the top is ", s.Peek())
+	fmt.Println("The elements in the stack from top to bottom are ")
+	s.display()
+}
 ```
+- [Go Playground](https://play.golang.org/p/UrX8KhVSqok)
 
  The above program gives us the following output :
  ```
