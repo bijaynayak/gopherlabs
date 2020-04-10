@@ -5,7 +5,7 @@
 - Linked Lists 
    - [Singly Linked List](./SinglyLinkedList.md)
    - [Doubly Linked List](./DoublyLinkedList.md)
-- Stacks
+- [Stacks](./Stacks.md)
 - Queue
 - Binary Tree
 - Binary Search Trees
