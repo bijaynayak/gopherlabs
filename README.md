@@ -49,6 +49,13 @@ https://play.golang.org). This is a free browser based learning platform for you
 [Experts Talks - Built with Go](./BuiltwithGo/redme.md) - In Process
 
 
+
+
+## Ready Stack 
+
+- [Go mod, Docker, Docker-compose with two apps]
+
+
 # Governance
 
 Gopherlabs is an independent community project founded by [Sangam Biradar](https://github.com/sangam14),[Docker Community Leader](https://twitter.com/BiradarSangam)& [Ajeet Singh Raina](https://github.com/ajeetraina),a [Docker Captain](https://www.docker.com/captains/ajeet-singh-raina) & Docker Community Leader which is now being built & shaped by a growing community of contributors across the globe.
