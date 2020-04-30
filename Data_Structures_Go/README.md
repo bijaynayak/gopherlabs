@@ -1,7 +1,7 @@
 ## Data Structures and Algorithms
 
 - [ language-specific data structures ]
-    -  Arrays
+    - [Arrays](./Arrays.md)
     -  Slices
     -  Two-dimensional slices
     -  Maps
