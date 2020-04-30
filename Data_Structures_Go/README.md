@@ -58,11 +58,13 @@
    - Recursion
    - Hashing
 - [ Network and Sparse Matrix Representation ]
-      - Network representations using graphs:
+
+     - Network representations using graphs:
          - Social network representation
          -  Map layouts
          -  Knowledge graphs
  - Sparse matrix representation using a list of 
+ 
 -[ Memory Management ]
    -  Garbage collection
    -  Cache management
