@@ -33,8 +33,8 @@
    -  Ordered lists
    -  Unordered lists
 - [ Dynamic Data Structures ] 
-    -     Dictionaries
-    TreeSets:
+    - Dictionaries
+    - TreeSets:
        - Synchronized TreeSets
        - Mutable TreeSets
     Sequences:
