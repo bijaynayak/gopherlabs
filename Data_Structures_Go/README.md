@@ -1,9 +1,5 @@
 ## Data Structures and Algorithms
 
-- The Go programming language has been rapidly adopted by developers for building web applications. With its impressive performance and ease of development, Go enjoys the support of a wide variety of open source frameworks for building scalable and highly performant web services and apps. The migration to Golang has taken place mainly because of its fast, lightweight, and inbuilt concurrency features. This brings with it the need to learn data structures and algorithms with this growing language.
-
-In data structures, a collection of elements of a single type is called an array. Slices are similar to arrays except that they have unusual properties. Slice operations such as enlarging a slice using append and copy methods, assigning parts of a slice, appending a slice, and appending a part of a slice are presented with code samples. Database operations and CRUD web forms are the scenarios in which Go data structures and algorithms are demonstrated.
-
 - [ language-specific data structures ]
     -  Arrays
     -  Slices
@@ -12,29 +8,66 @@ In data structures, a collection of elements of a single type is called an array
     -  Database operations
     -  Variadic functions
     -  CRUD web forms 
+- [ Linear Data Structures ]
+   -  Lists
+   -  Sets
+   -  Tuples
+   -  Stacks
+- [ Non-Linear Data Structures] 
+  -  Trees
+  -  Tables
+  -  Containers
+  -  Hash functions
+- [ Homogeneous Data Structures ]
+  -  Two-dimensional arrays
+  -  Multi-dimensional arrays
+      -   Matrix representation
+      -   Multiplication
+      -   Addition
+      -   Subtraction
+      -   Determinant calculation
+      -   Inversion
+      -   Transposition
+- [ Heterogeneous Data Structures ]
+   -  Linked lists
+   -  Ordered lists
+   -  Unordered lists
+- [ Dynamic Data Structures ] 
+    -     Dictionaries
+    TreeSets:
+       - Synchronized TreeSets
+       - Mutable TreeSets
+    Sequences:
+       -  Farey
+       -  Fibonacci
+       -  Look-and-say
+       -  Thue–Morse
+- [ Classic Algorithms ] 
+   -  Sorting:
+           -  Bubble
+           -  Selection
+           -  Insertion
+           -  Shell
+           -  Merge
+           -  Quick
+   - Searching:
+      - Linear
+      -  Sequential
+      -  Binary
+      -  Interpolation
+   - Recursion
+   - Hashing
+- [ Network and Sparse Matrix Representation ]
+      - Network representations using graphs:
+         - Social network representation
+         -  Map layouts
+         -  Knowledge graphs
+ - Sparse matrix representation using a list of 
+-[ Memory Management ]
+   -  Garbage collection
+   -  Cache management
+   -  Space allocation
+   -  Concepts—Go memory management
 
 
 
-
-
-
-
-
-
-
-
-==========================
-
-
-- [Arrays](./Arrays.md)
-- Linked Lists 
-   - [Singly Linked List](./SinglyLinkedList.md)
-   - [Doubly Linked List](./DoublyLinkedList.md)
-- [Stacks](./Stacks.md)
-- Queue
-- Binary Tree
-- Binary Search Trees
-- Heaps - Minheap, Maxheap
-- Graphs
-- Matrix
-- Trie
