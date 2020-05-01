@@ -64,9 +64,8 @@ Gopherlabs is an independent community project founded by [Sangam Biradar](https
 
 - [Sangam Biradar](https://github.com/sangam14)
 - [Ajeet Singh Raina](https://github.com/ajeetraina)
-- [Priyanka Yadav](https://github.com/Priyanka488)
 - [Saiyam Patahk](https://github.com/saiyam1814)
-- [Dimas Prawira](https://github.com/dhiemaz)
+
 
 
 # Golang Developer Roadmap 2020
