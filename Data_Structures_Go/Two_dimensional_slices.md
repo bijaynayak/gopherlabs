@@ -71,3 +71,39 @@ output :
 
 
 ```
+
+The append method on the slice is used to append new elements to the slice. If the slice capacity has reached the size of the underlying array, then append increases the size by creating a new underlying array and adding the new element. slic1 is a sub slice of arr starting from zero to 3 (excluded), while slic2 is a sub slice of arr starting from 1 (inclusive) to 5 (excluded). In the following snippet, the append method calls on slic2 to add a new 12 element (append_slice.go):
+
+```
+
+package main
+
+// importing fmt package
+import (
+	"fmt"
+)
+
+// main method
+func main() {
+
+	var arr = []int{5, 6, 7, 8, 9}
+	var slic1 = arr[:3]
+	fmt.Println("slice1", slic1)
+	var slic2 = arr[1:5]
+
+	fmt.Println("slice2", slic2)
+	var slic3 = append(slic2, 12)
+
+	fmt.Println("slice3", slic3)
+
+}
+
+```
+output:
+```
+sangam$ go run append_slice.go 
+slice1 [5 6 7]
+slice2 [6 7 8 9]
+slice3 [6 7 8 9 12]
+
+```
