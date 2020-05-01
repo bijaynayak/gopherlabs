@@ -5,8 +5,8 @@
 - [ language-specific data structures ]
     - [Arrays](./array_concept.md)
     - [Slices](./Slices.md)
-    - [ Two-dimensional slices](./Two_dimensional_slices.md)
-    -  Maps
+    - [Two-dimensional slices](./Two_dimensional_slices.md)
+    - [Maps](./Maps.md)
     -  Database operations
     -  Variadic functions
     -  CRUD web forms 
