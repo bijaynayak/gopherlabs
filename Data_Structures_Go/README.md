@@ -1,6 +1,6 @@
 ## Data Structures and Algorithms
 
-![logo](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img/)
+![logo](https://raw.githubusercontent.com/collabnix/gopherlabs/master/img/DataStructure.gif)
 
 - [ language-specific data structures ]
     - [Arrays](./array_concept.md)
