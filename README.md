@@ -28,7 +28,7 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 [Golang for Beginners](./Beginners/readme.md) - Done 
 
-[Data Structures in Golang](./Data_Structures_Go/README.md)- - In Process 
+[Data Structures and Algorithms](./Data_Structures_Go/README.md)- - In Process 
 
 [Golang for Intermediate](./Intermediate/readme.md) - In Process 
 
