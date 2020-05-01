@@ -3,7 +3,7 @@
 - [ language-specific data structures ]
     - [Arrays](./array_concept.md)
     - [Slices](./Slices.md)
-    -  Two-dimensional slices
+    - [ Two-dimensional slices](./Two_dimensional_slices.md)
     -  Maps
     -  Database operations
     -  Variadic functions
