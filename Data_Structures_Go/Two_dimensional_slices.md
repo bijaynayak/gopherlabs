@@ -66,7 +66,7 @@ func main() {
 ```
 output :
 ```
-sangam:Chapter02 sangam$ go run twodslices.go
+ sangam$ go run twodslices.go
 [[0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0 0]]
 
 
