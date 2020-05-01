@@ -2,7 +2,7 @@
 
 - [ language-specific data structures ]
     - [Arrays](./array_concept.md)
-    -  Slices
+    - [Slices](./Slices.md)
     -  Two-dimensional slices
     -  Maps
     -  Database operations
