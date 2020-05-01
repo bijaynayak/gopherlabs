@@ -7,7 +7,7 @@
     - [Slices](./Slices.md)
     - [Two-dimensional slices](./Two_dimensional_slices.md)
     - [Maps](./Maps.md)
-    -  Database operations
+    - [Database operations](./Database_operations.md)
     -  Variadic functions
     -  CRUD web forms 
 - [ Linear Data Structures ]
