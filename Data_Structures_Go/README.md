@@ -11,7 +11,7 @@
     - [Variadic functions](./Variadicfunctions.md)
     - [CRUD web forms](./CRUD_web_forms.md)
 - [ Linear Data Structures ]
-   -  Lists
+   -  [Lists](./Lists.md)
    -  Sets
    -  Tuples
    -  Stacks
