@@ -26,34 +26,23 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 [why go ?](https://www.slideshare.net/sangambiradar370/welcome-to-gopherlabs-why-go-golang)
 
-[Golang for Beginners](./Beginners/readme.md) - Done 
+[Golang for Beginners](./Beginners/readme.md) 
 
-[Data Structures and Algorithms](./Data_Structures_Go/README.md)- - In Process 
+[Data Structures and Algorithms](./Data_Structures_Go/README.md) 
 
-[Golang for Intermediate](./Intermediate/readme.md) - In Process 
+[Golang for Intermediate](./Intermediate/readme.md)  
 
-[Golang for Advanced] - In Process 
+[Golang for Advanced] 
 
-[Data Structures] - In Proces
+[Protocol Buffers] 
 
-[Protocol Buffers] - In Process 
+[microservice golang] 
 
-[microservice golang] - In Process 
+[gRPC for Golang]
 
-[gRPC for Golang]- In Process 
+[Golang Cheatsheet](./Golang_Cheatsheet.md)  
 
-
-
-[Golang Cheatsheet](./Golang_Cheatsheet.md) - Done 
-
-[Experts Talks - Built with Go](./BuiltwithGo/redme.md) - In Process
-
-
-
-
-## Ready Stack 
-
-- [Go mod, Docker, Docker-compose with two apps]
+[Experts Talks - Built with Go](./BuiltwithGo/redme.md) 
 
 
 # Governance
