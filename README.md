@@ -12,7 +12,7 @@ https://play.golang.org). This is a free browser based learning platform for you
 
 #  Getting Started in 3 Simple Steps
 
-- Join GopherLabs Contributors in 2 mins via [GopherLabs Slack Channel](https://join.slack.com/t/collabnix/shared_invite/enQtODgyMjk0MzU5ODQyLTM1MGI0M2EzMGM3MTNlYTI0OGFiNjY2NzI1OTY2N2E1Yjk1N2NjZDMzZDk1NmYyMTJiYTA1ODMyNDNlNzc3MjU)
+- Join GopherLabs Contributors in 2 mins via [GopherLabs Discord Server](https://discord.gg/S3GtFvT)
 
 - Fork, Contribute & Share via [GopherLabs GITHUB Repository](https://github.com/collabnix/gopherlabs)
 
